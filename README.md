@@ -4,6 +4,8 @@
 
 A fun interactive project where hearts follow your cursor with delightful sound effects!
 
+🔗 Live Demo: https://aeiman2002.github.io/Heart-Trial/
+
 Features
 
 🎵 Playful sound effects on heart creation
