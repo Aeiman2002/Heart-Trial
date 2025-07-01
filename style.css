@@ -5,6 +5,11 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    color: #fefefe;
+    margin: 2%;
+}
+
 span {
     background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
     width: 100px;
@@ -21,11 +26,13 @@ span {
 button {
     position: fixed;
     margin: 50px;
-    height: 50px;
+    height: 80px;
+    width: 400px;
     outline: none;
     border: none;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -34,11 +41,13 @@ button:hover {
     color: black;
     position: fixed;
     margin: 50px;
-    height: 50px;
+    height: 80px;
+    width: 400px;
     outline: none;
     border: none;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -53,5 +62,35 @@ button:hover {
         transform: translate(-50%, -5000%);
         opacity: 0;
         filter: hue-rotate(720deg);
+    }
+}
+
+@media screen and (min-width : 0px) and (max-width : 500px) {
+    button {
+        position: fixed;
+        margin: 50px;
+        height: 80px;
+        width: 300px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: palevioletred;
+        color: black;
+        position: fixed;
+        margin: 50px;
+        height: 80px;
+        width: 300px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
     }
 }

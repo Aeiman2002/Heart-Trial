@@ -1,7 +1,6 @@
 const bodyElement = document.querySelector("body");
 const soundBtn = document.querySelector("button");
 let isSoundEnabled = false;
-// let sound = new Audio ("./Audio/relaxing-guitar.mp3")
 
 soundBtn.addEventListener("click", () => {
   sound = new Audio("./Audio/relaxing-guitar.mp3");
